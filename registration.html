@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraion Page</title>
+
+    <link rel="stylesheet" type="text/css" href="Style1.css">
+</head>
+
+<body>
+    <header>
+    <div class="signup-box">
+    <h1>Sign Up</h1>
+    <h4>It will hardly take a minute for sign up</h4>
+
+        <form action="connection.php" method="post">
+        <label>First Name</label> 
+        <input type="text"  class="form-control"  name="firstname" placeholder="enter firstname"/>
+        <br>
+
+        <label>Last Name</label>
+        <input type="text" class="form-control" name="lastname" placeholder="enter lastname"/>
+        <br>
+
+        <label>Enrollment no.</label>
+        <input type="password" class="form-control" name="Enrollment No." placeholder="enter Enrollment No."/>
+        <br>
+
+        <label>College Name</label>
+        <input type="text" class="form-control" name="college name" placeholder="enter college name"/>
+        <br>
+
+        <label>Gender</label>
+        <select>  <option>select</option>
+                  <option>male</option>
+                  <option> Female</option>
+            </select>
+
+        
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="enter email">
+        <br>
+
+        <label>password</label>
+        <input type="password"  name="password" placeholder="enter password">
+        <br>
+
+        <label>Confirm Password</label>
+        <input type="password" name="cpassword" placeholder="confirm password">
+        <br>
+        
+        <a href="login.php">   <input type="button" name="signup" value="signup">
+       </a>
+  <br>
+    </form>
+    <p>By clicking the Sign Up button, you agree to our <br>
+        <a href="#">Terms and condition"</a> and <a href="#">privacy policy</a></p>
+        </div>
+        <p class="already">Already enrolled? click here to <a href="login.php">login here</a></p>
+    </header>
+    </body>
+    </html>
+
+    <?php
