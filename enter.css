@@ -1,0 +1,35 @@
+
+.sports
+{
+    text-align: center;
+   font-weight: bold;
+    color: yellowgreen;
+
+}
+a{
+
+
+    background-color: brown;
+    background-position: 10px;
+ }
+ 
+ body
+ {
+    background-image: url(sphd2.jpg);
+    width: 100%; height: 95vh;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+h1{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+ h3
+ {
+    text-align: center;
+    font-weight: 300;
+    color: yellow;
+ }
